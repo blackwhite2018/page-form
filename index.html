@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Layout</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="page">
+                <section class="custom__box_left">
+                    <section class="logo">
+                        <span class="logo__left">int<span class="infin">&infin;</span></span>
+                        <span class="logo__right">
+                            invest<br>together
+                        </span>
+                    </section>
+                    <img src="img/sidebar.jpg" alt="get iintoo it today">
+                </section>
+                <section class="custom__box_right">
+                    <section class="box custom__margin_bottom">
+                        <h1 class="box__header_primary">Get iintoo it today</h1>
+                        <p class="box__text_primary">
+                            There is no charge or obligation upon registration.
+                        </p>
+                    </section>
+                    <section class="box social custom__margin_bottom">
+                        <a href="/" class="social__facebook custom__margin_right">Register with Facebook</a>
+                        <a href="/" class="social__linkedin">Register with Linkedln</a>
+                    </section>
+                    <section class="box custom__margin_bottom">
+                        <p class="box__text_primary line">OR</p>
+                    </section>
+                    <section class="box">
+                        <form class="form" action="/" method="POST">
+                            <section class="form__group_row row__align_center">
+                                <div class="box">
+                                    <input type="text" name="email" id="email" class="form__text custom__margin_right" value="gus.goodwin@gmail.com">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="box">
+                                    <input type="text" name="phone" id="phone" class="form__text">
+                                    <label for="phone">Phone</label>
+                                </div>
+                            </section>
+                            <h2 class="box__header_primary">What type of investor are you?</h2>
+                            <p class="box__text_primary custom__margin_bottom">Select the type pf investor you are below.</p>
+                            <section class="form__group_row">
+                                <label for="individual custom__margin_right">
+                                    <input class="form__radio" checked id="individual" name="investor" type="radio">
+                                    <span class="box__text_primary">Individual</span>
+                                </label>
+                                <label for="business custom__margin_right">
+                                    <input class="form__radio" id="business" name="investor" type="radio">
+                                    <span class="box__text_primary">Business</span>
+                                </label>
+                                <label for="IRA custom__margin_right">
+                                    <input class="form__radio" id="IRA" name="investor" type="radio">
+                                    <span class="box__text_primary">IRA</span>
+                                </label>
+                                <label for="trust">
+                                    <input class="form__radio" id="trust" name="investor" type="radio">
+                                    <span class="box__text_primary">Trust</span>
+                                </label>
+                            </section>
+                            <section class="box box_center custom__margin_bottom custom__padding_vartical">
+                                <div class="modal">
+                                    <p class="box__text_primary">
+                                        I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.
+                                    </p>
+                                </div>
+                            </section>
+                            <section class="box custom__margin_bottom">
+                                <label for="agree">
+                                    <input type="checkbox" id="agree">
+                                    <span class="box__text_primary">I agree to the terms and receiving notifications from iintoo <a href="/">View full terms</a></span>
+                                </label>
+                            </section>
+                            <section class="box">
+                                <input type="submit" class="btn btn-primary" value="Create Account">
+                            </section>
+                        </form>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>
