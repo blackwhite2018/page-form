@@ -1,6 +1,6 @@
 <h1>Вёрстка страницы формы</h1>
 
-<a href="">View Demo</a>
+<a href="https://blackwhite2018.github.io/page-form/">View Demo</a>
 
 <ul>
     <li>html</li>
